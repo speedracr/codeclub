@@ -10,12 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'haml'
 gem 'figaro'
-gem 'devise'
+gem 'devise', github: 'plataformatec/devise', branch: 'master'
 gem 'omniauth-github'
-
-group :development, :test do
-  gem 'byebug'
-end
 
 group :development do
   gem 'byebug'
@@ -24,7 +20,7 @@ group :development do
   gem 'sqlite3'
 end
 
-gem :production do
+group :production do
   gem 'pg'
   gem 'rails_12factor'
 end

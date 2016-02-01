@@ -1,0 +1,3 @@
+[submodule "app/assets/stylesheets/codeclub_styles"]
+	path = app/assets/stylesheets/codeclub_styles
+	url = git@github.com:speedracr/codeclub_styles.git
