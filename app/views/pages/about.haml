@@ -1,2 +1,8 @@
-%h1
-  Hello world!
+.container
+  .row
+    .col-md-12
+      %h1
+        Hello world!
+      %p
+        = link_to "Sign in with GitHub", user_omniauth_authorize_path(:github)
+
